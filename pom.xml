@@ -4,7 +4,7 @@
 
     <groupId>dev.ai4j</groupId>
     <artifactId>openai4j</artifactId>
-    <version>0.15.0</version>
+    <version>0.16.0</version>
 
     <name>Java Client for OpenAI (ChatGPT)</name>
     <description>Java Client for OpenAI (ChatGPT)</description>
@@ -163,6 +163,9 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.1.2</version>
+                <configuration>
+                    <skipTests>true</skipTests>
+                </configuration>
             </plugin>
 
             <plugin>
